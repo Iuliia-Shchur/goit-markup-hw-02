@@ -10,7 +10,9 @@
 }
 
 .body {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto', '-apple-system', 'BlinkMacSystemFont', 'Avenir next',
+    'Avenir', 'Helvetica neue', 'Helvetica', 'Ubuntu', 'Noto', 'Segoe ui',
+    'Arial', sans-serif;
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
@@ -40,7 +42,6 @@
   font-weight: 500;
   color: var(--primary-text-color);
   text-decoration: none;
-  cursor: pointer;
 }
 
 .navigation-list:hover,
@@ -102,6 +103,7 @@
   text-align: center;
   letter-spacing: 0.06em;
   background-color: var(--primary-logo-color);
+  cursor: pointer;
 }
 
 .hero-button:hover,
@@ -155,10 +157,15 @@
 .contacts {
   background-color: var(--background-dark);
 }
-.address {
+.address-info {
   font-style: normal;
   line-height: 1.71;
   color: var(--address-color);
+}
+
+.address-info:hover,
+.address-info:focus {
+  color: var(--primary-logo-color);
 }
 
 .contact-inf {
@@ -167,6 +174,11 @@
   line-height: 1.71;
   color: var(--contact-link-color);
   text-decoration: none;
+}
+
+.contact-inf:hover,
+.contact-inf:focus {
+  color: var(--primary-logo-color);
 }
 
 /* Portfolio */
