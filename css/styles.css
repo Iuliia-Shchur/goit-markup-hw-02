@@ -1,8 +1,23 @@
+:root {
+  --background-dark: #2f303a;
+  --background-grey-btn-color: #f5f4fa;
+  --primary-text-color: #212121;
+  --secondary-text-color: #757575;
+  --primary-logo-color: #2196f3;
+  --secondary-logo-color: #000000;
+  --contact-link-color: rgba(255, 255, 255, 0.6);
+  --address-color: #ffffff;
+  --hero-btn-bg-color: #2196f3;
+  --hero-btn-text-color: #ffffff;
+}
+
 .body {
-  font-family: 'Roboto';
+  font-family: 'Roboto', sans-serif;
   font-size: 14px;
   font-style: normal;
-  color: #212121;
+  font-weight: 400;
+  color: var(--primary-text-color);
+  letter-spacing: 0.03em;
 }
 
 .logo {
@@ -11,7 +26,7 @@
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
-  color: #000000;
+  color: var(--secondary-logo-color);
   text-decoration: none;
 }
 
@@ -98,18 +113,13 @@
 .list-title {
   font-family: 'Roboto', sans-serif;
   font-weight: 700;
-  font-size: 14px;
   line-height: 1.14;
-  letter-spacing: 0.03em;
   text-transform: uppercase;
 }
 
 .list-text {
   font-family: 'Roboto', sans-serif;
-  font-weight: 400;
-  font-size: 14px;
   line-height: 1.71;
-  letter-spacing: 0.03em;
   color: #757575;
 }
 
@@ -120,7 +130,6 @@
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
-  letter-spacing: 0.03em;
 }
 
 /* Our team */
@@ -133,7 +142,6 @@
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
-  letter-spacing: 0.03em;
 }
 
 .name-text {
@@ -142,7 +150,6 @@
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
-  letter-spacing: 0.03em;
   color: #757575;
 }
 
@@ -153,20 +160,14 @@
 .address {
   font-family: 'Roboto', sans-serif;
   font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
   line-height: 1.71;
-  letter-spacing: 0.03em;
   color: #ffffff;
 }
 
 .contact-inf {
   font-family: 'Roboto', sans-serif;
   font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
   line-height: 1.71;
-  letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
   text-decoration: none;
 }
@@ -179,7 +180,6 @@
   font-size: 16px;
   line-height: 1.62;
   text-align: center;
-  letter-spacing: 0.03em;
   color: #212121;
   background-color: #f5f4fa;
   cursor: pointer;
@@ -206,9 +206,7 @@
 
 .list-header-text {
   font-family: 'Roboto', sans-serif;
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.87;
-  letter-spacing: 0.03em;
   color: #757575;
 }
