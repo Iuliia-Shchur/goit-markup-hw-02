@@ -7,8 +7,6 @@
   --secondary-logo-color: #000000;
   --contact-link-color: rgba(255, 255, 255, 0.6);
   --address-color: #ffffff;
-  --hero-btn-bg-color: #2196f3;
-  --hero-btn-text-color: #ffffff;
 }
 
 .body {
@@ -34,29 +32,29 @@
 }
 
 .logo-first {
-  color: var(--hero-btn-bg-color);
+  color: var(--primary-logo-color);
 }
 
-.navigation {
-  font-family: 'Roboto', sans-serif;
+.navigation-list {
+  font-family: inherit;
   font-weight: 500;
   color: var(--primary-text-color);
   text-decoration: none;
   cursor: pointer;
 }
 
-.navigation:hover,
-.navigation:focus,
-.navigation:active {
-  color: var(--hero-btn-bg-color);
+.navigation-list:hover,
+.navigation-list:focus,
+.navigation-list:active {
+  color: var(--primary-logo-color);
 }
 
-.list .navigation.current {
-  color: var(--hero-btn-bg-color);
+.list .navigation-list.current {
+  color: var(--primary-logo-color);
 }
 
 .contact-link {
-  font-family: 'Roboto', sans-serif;
+  font-family: inherit;
   font-weight: 500;
   color: var(--secondary-text-color);
   text-decoration: none;
@@ -93,7 +91,7 @@
 }
 
 .hero-button {
-  font-family: Roboto;
+  font-family: inherit;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
@@ -111,20 +109,21 @@
   color: #188ce8;
 }
 
-/* Секция преимущества */
-.list-title {
+/* Features */
+.features-title {
   font-weight: 700;
   line-height: 1.14;
   text-transform: uppercase;
 }
 
-.list-text {
+.features-text {
   line-height: 1.71;
   color: var(--secondary-text-color);
 }
 
 /* About */
-.about-title {
+.about-title,
+.team-title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
@@ -142,7 +141,7 @@
   text-align: center;
 }
 
-.name-text {
+.info {
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
@@ -150,7 +149,10 @@
 }
 
 /* Footer */
-.contact-section {
+.logo-second {
+  color: var(--address-color);
+}
+.contacts {
   background-color: var(--background-dark);
 }
 .address {
@@ -160,7 +162,7 @@
 }
 
 .contact-inf {
-  font-family: 'Roboto', sans-serif;
+  font-family: inherit;
   font-style: normal;
   line-height: 1.71;
   color: var(--contact-link-color);
@@ -173,7 +175,7 @@
 }
 
 .list-button {
-  font-family: Roboto;
+  font-family: inherit;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
@@ -186,7 +188,7 @@
 .list-button:hover,
 .list-button:focus,
 .list-button:active {
-  background-color: var(--hero-btn-bg-color);
+  background-color: var(--primary-logo-color);
   color: var(--address-color);
 }
 .list-button:active {
