@@ -29,7 +29,6 @@
   text-decoration: none;
 }
 
-.logo:hover,
 .logo:focus {
   color: var(--secondary-logo-color);
 }
@@ -47,7 +46,8 @@
 }
 
 .navigation:hover,
-.navigation:focus {
+.navigation:focus,
+.navigation:active {
   color: var(--hero-btn-bg-color);
 }
 
@@ -60,7 +60,8 @@
 }
 
 .contact-link:hover,
-.contact-link:focus {
+.contact-link:focus,
+.contact-link:active {
   color: var(--primary-logo-color);
 }
 
@@ -163,6 +164,9 @@
 }
 
 /* Portfolio */
+.list-menu:focus {
+  color: var(--secondary-logo-color);
+}
 
 .list-button {
   font-family: Roboto;
@@ -176,7 +180,8 @@
 }
 
 .list-button:hover,
-.list-button:focus {
+.list-button:focus,
+.list-button:active {
   background-color: var(--hero-btn-bg-color);
   color: var(--address-color);
 }
