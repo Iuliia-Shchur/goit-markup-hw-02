@@ -25,7 +25,6 @@
   font-weight: '700';
   font-size: 26px;
   line-height: 1.19;
-  letter-spacing: 0.03em;
   color: var(--secondary-logo-color);
   text-decoration: none;
 }
@@ -79,8 +78,6 @@
 }
 
 .hero-title {
-  font-family: 'Roboto', sans-serif;
-  font-style: normal;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.67;
@@ -111,21 +108,18 @@
 
 /* Секция преимущества */
 .list-title {
-  font-family: 'Roboto', sans-serif;
   font-weight: 700;
   line-height: 1.14;
   text-transform: uppercase;
 }
 
 .list-text {
-  font-family: 'Roboto', sans-serif;
   line-height: 1.71;
   color: var(--secondary-text-color);
 }
 
 /* About */
 .about-title {
-  font-family: 'Roboto', sans-serif;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
@@ -137,7 +131,6 @@
   background-color: var(--background-grey-btn-color);
 }
 .name {
-  font-family: 'Roboto', sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
@@ -145,8 +138,6 @@
 }
 
 .name-text {
-  font-family: 'Roboto', sans-serif;
-  font-weight: normal;
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
@@ -158,7 +149,6 @@
   background-color: var(--background-dark);
 }
 .address {
-  font-family: 'Roboto', sans-serif;
   font-style: normal;
   line-height: 1.71;
   color: var(--address-color);
