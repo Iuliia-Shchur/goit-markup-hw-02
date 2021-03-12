@@ -51,6 +51,10 @@
   color: var(--hero-btn-bg-color);
 }
 
+.list .navigation.current {
+  color: var(--hero-btn-bg-color);
+}
+
 .contact-link {
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
