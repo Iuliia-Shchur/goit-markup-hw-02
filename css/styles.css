@@ -32,37 +32,37 @@
 
 .logo:hover,
 .logo:focus {
-  color: #000000;
+  color: var(--secondary-logo-color);
 }
 
 .logo-first {
-  color: #2196f3;
+  color: var(--hero-btn-bg-color);
 }
 
 .navigation {
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
-  color: #212121;
+  color: var(--primary-text-color);
   text-decoration: none;
   cursor: pointer;
 }
 
 .navigation:hover,
 .navigation:focus {
-  color: #2196f3;
+  color: var(--hero-btn-bg-color);
 }
 
 .contact-link {
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
-  color: #757575;
+  color: var(--secondary-text-color);
   text-decoration: none;
   cursor: pointer;
 }
 
 .contact-link:hover,
 .contact-link:focus {
-  color: #2196f3;
+  color: var(--primary-logo-color);
 }
 
 .list {
@@ -75,7 +75,7 @@
 
 /* Hero section */
 .hero-section {
-  background-color: #2f303a;
+  background-color: var(--background-dark);
 }
 
 .hero-title {
@@ -87,7 +87,7 @@
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  color: #ffffff;
+  color: var(--address-color);
 }
 
 .hero-button {
@@ -95,13 +95,13 @@
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
-  color: #ffffff;
+  color: var(--address-color);
 
   display: flex;
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
-  background-color: #2196f3;
+  background-color: var(--primary-logo-color);
 }
 
 .hero-button:hover,
@@ -120,7 +120,7 @@
 .list-text {
   font-family: 'Roboto', sans-serif;
   line-height: 1.71;
-  color: #757575;
+  color: var(--secondary-text-color);
 }
 
 /* About */
@@ -134,7 +134,7 @@
 
 /* Our team */
 .team {
-  background-color: #f5f4fa;
+  background-color: var(--background-grey-btn-color);
 }
 .name {
   font-family: 'Roboto', sans-serif;
@@ -150,25 +150,25 @@
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
-  color: #757575;
+  color: var(--secondary-text-color);
 }
 
 /* Footer */
 .contact-section {
-  background-color: #2f303a;
+  background-color: var(--background-dark);
 }
 .address {
   font-family: 'Roboto', sans-serif;
   font-style: normal;
   line-height: 1.71;
-  color: #ffffff;
+  color: var(--address-color);
 }
 
 .contact-inf {
   font-family: 'Roboto', sans-serif;
   font-style: normal;
   line-height: 1.71;
-  color: rgba(255, 255, 255, 0.6);
+  color: var(--contact-link-color);
   text-decoration: none;
 }
 
@@ -180,18 +180,18 @@
   font-size: 16px;
   line-height: 1.62;
   text-align: center;
-  color: #212121;
-  background-color: #f5f4fa;
+  color: var(--primary-text-color);
+  background-color: var(--background-grey-btn-color);
   cursor: pointer;
 }
 
 .list-button:hover,
 .list-button:focus {
-  background-color: #2196f3;
-  color: #ffffff;
+  background-color: var(--hero-btn-bg-color);
+  color: var(--address-color);
 }
 .list-button:active {
-  color: #ffffff;
+  color: var(--address-color);
 }
 
 /* Gallery */
@@ -201,12 +201,12 @@
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
-  color: #212121;
+  color: var(--primary-text-color);
 }
 
 .list-header-text {
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
   line-height: 1.87;
-  color: #757575;
+  color: var(--secondary-text-color);
 }
